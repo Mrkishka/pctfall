@@ -3,7 +3,7 @@
 #include <cmath>
 #include <cstdlib>
 
-#define N 100000000
+#define N 10000000
 
 double func(double x, double y)
 {

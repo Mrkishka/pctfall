@@ -1,7 +1,0 @@
-#!/bin/sh
-#SBATCH --nodes=2 --ntasks-per-node=14
-#SBATCH --job-name=runge28
-
-cd $SLURM_SUBMIT_DIR
-
-mpiexec ./runge

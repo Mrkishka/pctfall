@@ -1,0 +1,7 @@
+#!/bin/sh
+#SBATCH --nodes=1 --ntasks-per-node=8
+#SBATCH --job-name=lap8
+
+cd $SLURM_SUBMIT_DIR
+
+mpiexec ./parallel 10000 10000
